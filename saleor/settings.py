@@ -2,7 +2,7 @@ import ast
 import os.path
 import warnings
 from datetime import timedelta
-
+import environ
 import dj_database_url
 import dj_email_url
 import django_cache_url
@@ -42,6 +42,10 @@ DEBUG = get_bool_from_env("DEBUG", True)
 SITE_ID = 1
 
 PROJECT_ROOT = os.path.normpath(os.path.join(os.path.dirname(__file__), ".."))
+
+# Load config from .env to os.environ
+if os.environ.get("DJANGO_READ_DOTENV", True):
+    environ.Env.read_env(PROJECT_ROOT + "/.env")
 
 ROOT_URLCONF = "saleor.urls"
 
