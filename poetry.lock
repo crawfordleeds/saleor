@@ -559,7 +559,7 @@ django-debug-toolbar = ">=2.0"
 name = "django-environ"
 version = "0.8.1"
 description = "A package that allows you to utilize 12factor inspired environment variables to configure your Django application."
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=3.4,<4"
 
@@ -2688,7 +2688,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
   python-versions = "~3.9"
-content-hash = "efb18181a1638376f916fc8ebf453f3a9bcb3e1211d62a227f1f71b05bfab0ec"
+content-hash = "bd0ca6ccc6fc499113f4dfacfac484efccdf3d9c7bb00288620c02ff26ba26cf"
 
 [metadata.files]
 adyen = [
