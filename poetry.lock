@@ -2760,7 +2760,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
   python-versions = "~3.9"
-content-hash = "d834623137d6b8d6cd079ffa01bc3b63f4d9f4f3ae24aca443eb9883912188c5"
+content-hash = "95b152d2579057892f3a2194f85c2e42edbe5a44f0af4845163aa1a6b329b402"
 
 [metadata.files]
 adyen = [
